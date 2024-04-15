@@ -1,12 +1,16 @@
-import Header from "./Header";
-import Main from "./Main";
-import Footer from "./Footer";
+import Navbar from "./components/nav/Navbar";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <Header />,
-    <Main />,
-    <Footer />
+    <div className="App">
+      <Navbar />
+      <Header />
+      {/* <Main /> */}
+      {/* <Footer /> */}
+    </div>
   );
 }
 
